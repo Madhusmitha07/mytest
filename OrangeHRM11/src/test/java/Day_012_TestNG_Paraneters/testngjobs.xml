@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2"> 
+  <test  name="Test1">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"></parameter>
+  <parameter name="username" value="Admin"></parameter>
+  <parameter name="password" value="admin123"></parameter>
+  <parameter name="jobtitle" value="clerk126"></parameter>
+  <parameter name="jobdesc" value="clerk126 desc"></parameter>
+  <parameter name="jobnote" value="clerk126 note"></parameter>
+    <classes>
+      <class name="Day_012_TestNG_Paraneters.TC01_Add_jobs_NonStatic_Parameters"/>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Test2">
+	  <parameter name="browser" value="firefox"></parameter>
+	  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"></parameter>
+	  <parameter name="username" value="Admin"></parameter>
+	  <parameter name="password" value="admin123"></parameter>
+	  <parameter name="jobtitle" value="clerk127"></parameter>
+	  <parameter name="jobdesc" value="clerk127 desc"></parameter>
+	  <parameter name="jobnote" value="clerk127 note"></parameter>
+	    <classes>
+	      <class name="Day_012_TestNG_Paraneters.TC01_Add_jobs_NonStatic_Parameters"/>
+	    </classes>
+	  </test> <!-- Test -->
+</suite> <!-- Suite -->
