@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ABC_Data_Hai.TC01_Add_jobs_NonStatic_Parameters2">
+      <class name="Day_36_Desired_Capabilities.IEtestforDesiredCapabilities">
         <methods>
-          <include name="JobsTest"/>
+          <include name="Open_OrangeHRM"/>
         </methods>
-      </class> <!-- ABC_Data_Hai.TC01_Add_jobs_NonStatic_Parameters2 -->
+      </class> <!-- Day_36_Desired_Capabilities.IEtestforDesiredCapabilities -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
